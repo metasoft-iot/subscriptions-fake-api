@@ -1,0 +1,47 @@
+{
+  "plans": [
+    {
+      "id": "basic",
+      "name": "Basic Plan",
+      "price": "S/150.00",
+      "currency": "S/",
+      "amount": 150.00,
+      "interval": "month",
+      "description": "Access to appointment management and standard customer requests."
+    },
+    {
+      "id": "professional",
+      "name": "Professional Plan",
+      "price": "S/220.00",
+      "currency": "S/",
+      "amount": 220.00,
+      "interval": "month",
+      "description": "Basic features + analytics dashboard + customer feedback.",
+      "popular": true
+    },
+    {
+      "id": "premium",
+      "name": "Premium Plan",
+      "price": "S/300.00",
+      "currency": "S/",
+      "amount": 300.00,
+      "interval": "month",
+      "description": "All features + promotional visibility in SafeCar directory + priority support."
+    }
+  ],
+  "subscriptions": {
+    "planId": "professional",
+    "paymentMethod": {
+      "cardType": "Credit Card",
+      "cardholderName": "JOHN DOE",
+      "email": "john.doe.user@test.com",
+      "cardNumber": "4000 0012 3456 7890",
+      "expirationDate": "12/28",
+      "cvv": "123",
+      "saveCard": true
+    },
+    "metadata": {
+      "transactionId": "txn_pro_789012"
+    }
+  }
+}
