@@ -24,24 +24,41 @@
       "name": "Premium Plan",
       "price": "S/300.00",
       "currency": "S/",
-      "amount": 400.00,
+      "amount": 300.00,
       "interval": "month",
       "description": "All features + promotional visibility in SafeCar directory + priority support."
     }
   ],
-  "subscriptions": {
-    "planId": "professional",
-    "paymentMethod": {
-      "cardType": "Credit Card",
-      "cardholderName": "JOHN DOE",
+  "users": [
+    {
+      "id": 101,
+      "name": "John Doe",
       "email": "john.doe.user@test.com",
-      "cardNumber": "4000 0012 3456 7890",
-      "expirationDate": "12/28",
-      "cvv": "123",
-      "saveCard": true
-    },
-    "metadata": {
-      "transactionId": "txn_pro_789012"
+      "activeSubscription": "professional"
     }
-  }
+  ],
+  "paymentMethods": [
+    {
+      "id": "pm_local_1",
+      "userId": 101,
+      "brand": "visa",
+      "last4": "7890",
+      "masked": "**** **** **** 7890",
+      "exp_month": 12,
+      "exp_year": 2028,
+      "isPrimary": true,
+      "source": "fake"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": 1,
+      "userId": 101,
+      "planId": "professional",
+      "paymentMethodId": "pm_local_1",
+      "status": "active",
+      "startDate": "2025-11-09T12:00:00Z",
+      "metadata": { "transactionId": "txn_pro_789012" }
+    }
+  ]
 }
