@@ -29,7 +29,7 @@
       "description": "All features + promotional visibility in SafeCar directory + priority support."
     }
   ],
-  "users": [
+"users": [
     {
       "id": 101,
       "name": "John Doe",
@@ -37,6 +37,7 @@
       "activeSubscription": "professional"
     }
   ],
+
   "paymentMethods": [
     {
       "id": "pm_local_1",
@@ -50,6 +51,7 @@
       "source": "fake"
     }
   ],
+
   "subscriptions": [
     {
       "id": 1,
@@ -59,6 +61,58 @@
       "status": "active",
       "startDate": "2025-11-09T12:00:00Z",
       "metadata": { "transactionId": "txn_pro_789012" }
+    }
+  ],
+
+  "payments": [
+    {
+      "cardholderName": "Jorge Arévalo",
+      "billingEmail": "jorge.a@email.com",
+      "planId": "basic",
+      "amount": 150.00,
+      "paymentMethodId": "pm_6F7G8H9I0J"
+    },
+    {
+      "cardholderName": "Giulia Rossi",
+      "billingEmail": "giulia.rossi@email.com",
+      "planId": "premium",
+      "amount": 300.00,
+      "paymentMethodId": "pm_U1V2W3X4Y5"
+    },
+    {
+      "cardholderName": "Mateo Fernández",
+      "billingEmail": "mateo.fdz@email.com",
+      "planId": "basic",
+      "amount": 150.00,
+      "paymentMethodId": "pm_Z6A7B8C9D0"
+    },
+    {
+      "cardholderName": "Luna Rivera",
+      "billingEmail": "luna.rivera@email.com",
+      "planId": "professional",
+      "amount": 220.00,
+      "paymentMethodId": "pm_E1F2G3H4I5"
+    },
+    {
+      "cardholderName": "Ethan Müller",
+      "billingEmail": "ethan.muller@email.com",
+      "planId": "premium",
+      "amount": 300.00,
+      "paymentMethodId": "pm_J6K7L8M9N0"
+    },
+    {
+      "cardholderName": "Sofía Delgado",
+      "billingEmail": "sofia.delgado@email.com",
+      "planId": "professional",
+      "amount": 220.00,
+      "paymentMethodId": "pm_O1P2Q3R4S5"
+    },
+    {
+      "cardholderName": "Lucas Romano",
+      "billingEmail": "lucas.romano@email.com",
+      "planId": "premium",
+      "amount": 300.00,
+      "paymentMethodId": "pm_T6U7V8W9X0"
     }
   ]
 }
