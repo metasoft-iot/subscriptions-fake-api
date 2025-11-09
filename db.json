@@ -24,7 +24,7 @@
       "name": "Premium Plan",
       "price": "S/300.00",
       "currency": "S/",
-      "amount": 300.00,
+      "amount": 400.00,
       "interval": "month",
       "description": "All features + promotional visibility in SafeCar directory + priority support."
     }
